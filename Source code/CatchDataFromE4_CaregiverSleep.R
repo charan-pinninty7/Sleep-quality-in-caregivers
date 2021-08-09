@@ -3,30 +3,32 @@
 #Author: Reza Sadeghi
 #Email: sadeghi.2@wright.edu; reza@knoesis.org
 #Ver:1.2
-#Last modification:6/10/2018
+#Last modification:08/08/2021 by Charan Pinninty (pinninty.2@wright.edu)
 
-person=c(1:8)
+
+
+person=c(1:18)
 week=c(1:2)
-day=c(1:7)
+day=c(1:9)
 signal=list('ACC','BVP','EDA','HR','IBI','Temp')
 data=list(person,week,day,signal)
 
 
 data <- vector(mode = "list", length = 8)
-for (p_i in 1:8){
+for (p_i in 1:18){
   data[[p_i]] <- vector(mode="list", length = 2)
   for (w_i in 1:2){
     data[[p_i]][[w_i]] <- vector(mode="list", length = 7)
-    for (d_i in 1:8){
+    for (d_i in 1:9){
       data[[p_i]][[w_i]][[d_i]] <- structure(vector(mode="list", length = 6), names= signal)
     }
   }
 }
 
-root="C:\\Users\\Reza Sadeghi\\Desktop\\Dementia Caregiver Sleep Dataset\\Dataset\\";
-for (p_i in 1:8){
+root="C:\\Sleep-quality-in-caregivers-master\\Examine_your_sleep_with_our_model\\Data\\";
+for (p_i in 1:18){
   for (w_i in 1:2){
-    for (d_i in 1:8){
+    for (d_i in 1:9){
       possibleError <- tryCatch({
         direction=paste(root,'Participant ',as.character(p_i),'\\Week ', as.character(w_i),'\\',as.character(d_i), sep = '')
         setwd(direction)
@@ -64,5 +66,3 @@ for (p_i in 1:8){
   }
 }
 
-setwd("C:\\Users\\Reza Sadeghi\\Desktop\\Dementia Caregiver Sleep Dataset")
-save(data,file = "DataP1_8.RData")
