@@ -6,7 +6,9 @@
 #Last modification:07/01/2021 by Charan Pinninty (pinninty.2@wright.edu)
 
 
+#if you face memory vector error please uncomment the below line:
 
+#memory.limit(size = 16000)
 person=c(1:18)
 week=c(1:2)
 day=c(1:9)
