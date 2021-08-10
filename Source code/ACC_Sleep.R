@@ -38,6 +38,7 @@ ACC_Sleep<-function(ACC){
   for (i in 1:segmentNumber){
     finalrRR[(1+((i-1)*stepLength)):(i*stepLength)]=rRR[i]
   }
+  
   #plot.ts(finalrRR)
   threshold=mean(finalrRR[1:obserivingTime])-0.1
   
