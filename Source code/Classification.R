@@ -187,7 +187,6 @@ for (correct_seed in 1:1000){
   MSE_trainR<- c(MSE_trainR,MSE_train)
   MSE_testR<- c(MSE_testR,MSE_test)
   
-}
 
 
 
