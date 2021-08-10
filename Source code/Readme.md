@@ -87,6 +87,9 @@ Output: the final models and their performances
 
 Upload the data folder in Examine_your_sleep_with_our_model
 
+Before running code go to Matlab:
+Add-ons -> search for Signal Processing Toolbox and DSP System Toolbox -> install both the extensions
+
 Step 1: Run CatchDataFromE4_CaregiverSleep.R 
 
 Step 2: Run CatchDataFromSurvey_CaregiverSleep.R
