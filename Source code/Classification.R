@@ -95,8 +95,9 @@ max_F1R<- c()
 MSE_trainR<- c()
 MSE_testR<- c()
 
+#enter the required participant to be excluded and tested on
 
-for (part in 1:18){
+part = 1
   
   max_acu = 0
   max_seed = 0
@@ -187,6 +188,8 @@ for (correct_seed in 1:1000){
   MSE_testR<- c(MSE_testR,MSE_test)
   
 }
+
+
 
 
 
