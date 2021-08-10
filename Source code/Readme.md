@@ -82,3 +82,18 @@ Description: Feature selection and classification
 Input: survey dataframe
 
 Output: the final models and their performances
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Upload the data folder in Examine_your_sleep_with_our_model
+
+Step 1: Run CatchDataFromE4_CaregiverSleep.R 
+
+Step 2: Run CatchDataFromSurvey_CaregiverSleep.R
+
+Step 3: Run main.R
+
+Step 4: Run classification.R
+
+Note: Move the one participant data into Testing folder within Data
+
