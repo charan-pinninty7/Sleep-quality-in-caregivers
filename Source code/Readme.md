@@ -92,11 +92,9 @@ Add-ons -> search for Signal Processing Toolbox and DSP System Toolbox -> instal
 
 Step 1: Run CatchDataFromE4_CaregiverSleep.R 
 
-Step 2: Run CatchDataFromSurvey_CaregiverSleep.R
+Step 2: Run main.R
 
-Step 3: Run main.R
-
-Step 4: Run classification.R
+Step 3: Run classification.R
 
 Note: Move the one participant data into Testing folder within Data
 
