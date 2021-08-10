@@ -27,7 +27,7 @@ The 20th experiment is about including all the 18 participants' data, trained an
 The 21st experiment is about regrouping the classes in sleep quality from 5 classes to 3 classes, from {0,1,2,3,4} to {0,1,2}
 
 
-The source code of paper:
+Current version is built on top of previous source code of paper: https://github.com/RezaSadeghiWSU/Sleep-quality-in-caregivers/tree/master/Source%20code
 
 R. Sadeghi, T. Banerjee, J.C. Hughes, L.W. Lawhorne, Sleep quality prediction in caregivers using physiological signals, Computers in Biology and Medicine (2019), doi:https://doi.org/10.1016/j.compbiomed.2019.05.010.
 
